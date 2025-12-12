@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: #87A776; 
+}
+
+
+.titulo-principal {
+   width: 47%;               
+    margin: 40px 550px 40px;   
+    background: #ffffff;      
+    padding: 18px;
+    text-align: left;
+    font-size: 18px;
+    font-weight:600;
+    color: #000;
+    border-radius: 8px;
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.15);
+}
+
+.tarjetap h1 {
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+main {
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+
+.tarjeta {
+    width: 320px;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    padding-bottom: 25px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.25);
+}
+
+
+.img-box img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-bottom-right-radius: 160px;
+}
+
+.tarjeta h2 {
+    margin: 18px 22px 0 22px;
+    font-size: 22px;
+     font-family: 'Montserrat', sans-serif;
+    font-weight: 800; 
+    color: #05011f;
+    text-transform: uppercase;
+}
+
+.tarjeta h4 {
+    margin: 6px 22px;
+    color: #C72B50;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.tarjeta p {
+    margin: 12px 22px;
+    color: #444;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 1.4;
+}
+
+.iconos {
+    margin: 10px 22px 0 22px;
+    display: flex;
+    gap: 18px;
+}
+
+.iconos i {
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.iconos i:hover {
+    transform: scale(1.2);
+    color: #C72B50;
+}
