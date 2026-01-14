@@ -47,6 +47,8 @@ main {
     overflow: hidden;
     padding-bottom: 25px;
     box-shadow: 0px 4px 12px rgba(0,0,0,0.25);
+    transition: transform 0.4s ease, background-color 0.4s ease;
+
 }
 
 
@@ -68,7 +70,7 @@ main {
 
 .tarjeta h4 {
     margin: 6px 22px;
-    color: #C72B50;
+    color: #c55872;
     font-size: 14px;
     text-transform: uppercase;
     font-weight: bold;
@@ -95,6 +97,28 @@ main {
 }
 
 .iconos i:hover {
-    transform: scale(1.2);
-    color: #C72B50;
+    transform: scale(1.1);
+    color: #e0bec6;
+    
 }
+.tarjeta:hover {
+    transform: scale(1.1);
+    background-color: #a5c6f1;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.3);
+}
+.tarjeta:hover .img-box img {
+    filter: brightness(1.1);
+    transition: 0.4s;
+}
+.tarjeta:hover p{
+    color: #070707;
+}
+
+.tarjeta:nth-child(1):hover {
+    transform: scale(1.05);
+    background-color: #eba7d4; 
+}
+.tarjeta:nth-child(3):hover {
+    transform: scale(1.05);
+    background-color: #ffe0b2;
+} 
